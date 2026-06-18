@@ -1,33 +1,12 @@
-# calculator mini project
-def add(a,b):
-    return(a + b)
-    
-def multiply(a,b):
-    return(a * b)
-    
-def division(a,b):
-    return(a / b)
-    
-def minus(a,b):
-    return(a - b)
+# Python Calculator
 
-firstnum = int(input("Enter no.:"))
-secondnum = int(input("Enter no.:"))
+A simple calculator built using Python.
 
-print("1.add")
-print("2.multiply")
-print("3.division")
-print("4.minus")
+Features:
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-choice = int(input("Enter no.:"))
-
-if choice == 1:
-    print(add(firstnum , secondnum))
-elif choice == 2:
-    print(multiply(firstnum , secondnum))
-elif choice == 3:
-    print(division(firstnum , secondnum))
-elif choice == 4:
-    print(minus(firstnum , secondnum))
-else:
-    print("invalid choice")
+Run:
+python calculator.py
